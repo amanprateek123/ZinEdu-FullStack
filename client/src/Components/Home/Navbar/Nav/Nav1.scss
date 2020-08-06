@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.nav1{
+    background-color: rgb(255,81,81);
+    color: black!important;
+    max-height:105px;
+    width: 100%;
+    height: 100%;
+}
+.brand{
+    width: 7%;
+}
+.brand_img{
+    width: 95%;
+}
+.navitem{
+    display: block;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.zinedu{
+    line-height: 5px;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 50px;
+    margin-top: 35px;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+.mle{
+    text-decoration: none;
+    font-size: 35px;
+    margin-top: 10px;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Bebas Neue';
+}
+.zinedu:hover{
+    text-decoration: none;
+    color: black;
+}
+.mle:hover{    
+    color: black;
+    text-decoration: none;
+}
+.nav_text{
+    background-color: white;
+    display: inline-block;
+    font-weight: bold;
+    width: 90px;
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+    margin-right: 3%;
+}
+.nav_text_1{
+    background-color: white;
+    display: inline-block;
+    font-weight: bold;
+    width: 110px;
+    font-size: 24px;
+    padding: 0;
+    text-align: center;
+    margin-left: 0;
+}
+.nav_subtext{
+    font-size: 24px;
+    padding: 0;
+    color: black;
+}
+.nav_subtext:hover{
+    color: black;
+    text-decoration: none;
+}
+.account{
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-family:'Bebas Neue';
+    font-size: 25px;
+}
+.account:hover{
+    text-decoration: none;
+    color: black;
+}
+.account_res{
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-family:'Bebas Neue';
+    font-size: 25px;
+    display: none;
+}
+@media only screen and (max-width: 600px){
+    .brand{
+        width: 15%;
+    }
+    .brand_img{
+        width: 100%;
+    }
+    .nav_text,.account,.nav_text_1{
+       display: none;
+    }
+    
+    .navitem{
+        display: none;
+    }
+    .account_res{
+        display: block;
+    }
+}

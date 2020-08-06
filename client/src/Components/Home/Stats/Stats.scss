@@ -1,0 +1,29 @@
+.stats{
+    width: 100%;
+    background-color: rgb(245,244,240);
+    height: 800px;
+    padding-top: 5%;
+    margin-bottom: 5%;
+
+}
+.stats_img{
+    width: 90%;
+    img{
+        width: 97.5%;
+        margin-left:6.8%;
+        border: 0;
+    }
+}
+@media only screen and (max-width: 600px){
+    .stats{
+        height: 200px;
+        margin-bottom: 18%;
+    }
+    .stats_img{
+           width: 100%;
+           img{
+               width: 100%;
+               margin: 0;
+           }
+    }
+}

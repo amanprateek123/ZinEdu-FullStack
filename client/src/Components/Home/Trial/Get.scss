@@ -1,0 +1,125 @@
+.getStarted{
+    width: 40%;
+    height: 330px;
+    background-color: rgb(255,81,81);
+    h1{
+        color: white;
+        font-size: 35px;
+        text-align: center;
+    }
+    .select_get{
+        margin-top: 5%;
+        width: 80%;
+        height: 100px;
+        margin-left: 15%;
+    }
+}
+
+.grade{
+    width: 40%;
+    float: left;
+    select{
+        width: 150px;
+        padding: 4px;
+        color: grey;
+    }
+    input{
+        padding: 4px;
+        width: 150px;
+    }
+}
+.goal{
+    width: 40%;
+    float: right;
+    select{
+        width: 150px;
+        padding: 4px;
+        color: grey;    
+    }
+    input{
+        padding: 4px;
+        width: 150px;
+    }
+}
+.btn_next{
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 40%;
+    button{
+        width: 80%;
+        background-color: gray;
+    }
+}
+.tick{
+    width: 80%;
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 100px;
+    .tick_frame{
+        width: 120px;
+        height:120px;
+        border: 5px solid white;
+        border-radius: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    
+}
+.tick_text{
+    margin-top: 7%;
+    h1{
+        font-size: 35px;
+        color: black;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        padding-top: 3%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .getStarted{
+        width: 90%;
+        margin: auto;
+      h1{
+          font-size: 25px;
+      }
+      .select_get{
+          margin-left: 10%;margin-top: 10%;
+      }
+    }
+    .grade,.goal{
+        h3{
+            font-size: 20px;
+        }
+        select,input{
+            width: 100px;
+        }
+    }
+    .btn_next{
+        margin-top: 15%;
+        margin-left: 30%;
+        width: 40%;
+        button{
+            width: 100%;
+            background-color: gray;
+        }
+    }
+    .tick{
+        margin-left: 32%;
+        margin-top: 10%;
+    }
+    .tick_text{
+        margin-top:12%;
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 17px;
+            padding-top: 5%;
+        }
+    }
+}

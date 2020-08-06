@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.login{
+    width: 30%;
+    background-color: rgb(255,81,81);
+    height: 445px;
+}
+.signUp{
+    width: 30%;
+    background-color: rgb(255,81,81);
+    height: 645px;
+}
+.log_head{
+    width: 97.5%;
+    margin: auto;
+    background-color: white;
+    height: 80px;
+    margin-top: 1%;
+    border-radius: 5px;
+
+    .login_zinedu{
+        display: flex;
+        flex-direction: row;
+        width: 60%;
+        margin: auto;
+
+    }
+}
+.log_img{
+    width: 25%;
+    img{
+        width: 94%;
+        margin-top: 15%;
+    }
+ }
+.heading_log{
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      margin-left: 5%;
+      font-family: 'Bebas Neue', cursive;
+      h1{
+          margin-top: 4%;
+          font-size: 30px;
+          font-weight: bold;
+      }
+      p{
+          margin-top: -5%;
+          font-size: 20px;
+      }
+}
+
+.login_input{
+    width: 97.5%;
+    margin: auto;
+    background-color: white;
+    height: 350px;
+    margin-top: 1%;
+    border-radius: 5px;
+
+}
+.signUp_input{
+    width: 97.5%;
+    margin: auto;
+    background-color: white;
+    height: 550px;
+    margin-top: 1%;
+    border-radius: 5px;
+
+}
+.login_form{
+    width: 70%;
+    margin: auto;
+    padding-top: 10%;
+     
+    a:hover{
+          text-decoration: none;;
+    }
+    .input5{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        h6{
+            font-size: 17px;
+            font-weight: bold;
+        }
+        input{
+            box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+            border: 1px solid grey;
+            padding: 2px;
+        }
+    }
+}
+.registerd{
+    margin-top: 1.5%;
+    p{
+        color: grey;
+        text-align: center;
+        position: relative;
+        top: 15px;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .login{
+        width: 90%;
+        margin-left: -4%;
+    }
+    .signUp{
+        width: 90%;
+        margin-left: -4%;
+    }
+    .log_img{
+        width: 45%;
+        img{
+            width: 94%;
+            margin-top: 10%;
+        }
+     }
+     .heading_log{
+         width: 100%;
+        h1{
+            margin-top: 4%;
+            font-size: 25px;
+        }
+        p{
+            margin-top: -5%;
+            font-size: 15px;
+        }
+  }
+  .login_zinedu{
+      padding-top: 8px;
+  }
+}
+.error{
+    color: #d60000;
+    font-size: 0.8em;
+    margin: 0.2em 0 ;
+}

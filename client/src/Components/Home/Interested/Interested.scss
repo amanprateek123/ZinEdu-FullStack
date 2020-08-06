@@ -1,0 +1,112 @@
+.interested{
+    width: 42%;
+    height: 330px;
+    background-color: rgb(255,81,81);
+}
+.int_up{
+    height: 220px;
+    h1{
+        font-size: 22px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 3%;
+    }
+    img{
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+}
+.int_down{
+    background-color: white;
+    height: 110px;
+}
+.int_detail{
+    height: 330px;
+    background-color: rgb(255,81,81);
+    width: 60%;
+}
+.int_value{
+    display: flex;
+    flex-direction: row;
+}
+.int_input{
+    margin-top: 6%;
+    width: 20%;
+    margin-left: 10%;
+    h1{
+        font-size: 25px;
+        text-align: left;
+    }
+    input{
+        margin: auto;
+        padding: 4px;
+        margin-top: 5%;
+    }
+    select{
+        width: 100%;
+        padding: 4px;
+        margin-top: 5%;
+    }
+}
+.int_up1{
+    height: 220px;
+    h1{
+        font-size: 22px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 3%;
+    }
+    img{
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .interested{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .int_up{
+        img{
+            margin-left: 30%;
+        }
+    }
+    .int_down{
+        padding-top: 5%;
+    }
+    .int_detail{
+        height: 380px;
+        width: 90%;
+        margin: auto;
+    }
+    .int_value{
+        display: flex;
+        flex-direction: column;
+    }
+    .int_up1{
+        height: 270px;
+    }
+    .int_input{
+        margin-top: 2%;
+        width: 90%;
+        margin-left: 10%;
+        h1{
+            font-size: 17px;
+            text-align: left;
+        }
+        input{
+            margin-top: 1.5%;
+            margin-bottom: 1.5%;
+            width: 90%;
+        }
+        select{
+            width: 90%;
+            margin-top: 1.5%;
+            margin-bottom: 1.5%;
+            
+        }
+    }
+}

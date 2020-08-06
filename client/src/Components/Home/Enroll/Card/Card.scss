@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+$font: 'Montserrat';
+.enroll_card{
+    z-index:1;
+    margin: 0 50px;
+    width: 90%;
+    height: 450px;
+    margin-top:-40px;
+    border:1px solid black;
+}
+.card_title{
+    font-family: $font ;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+}
+.card_text{
+    color: black;
+    text-align: center;
+    margin: auto;
+    font-family: $font;
+    font-size: 14px;
+    @media(max-width: 1500px){
+            font-size: 12px;
+        }
+        @media(max-width: 600px){
+            font-size: 15px;
+        }    
+    
+}
+.card_btn{
+    background-color: white;
+    color: rgb(255,100,100);
+    font-size: 27px;
+    font-family: $font;
+    border-radius: 200px;
+    font-weight: bolder;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: none;
+    padding: 2px;
+    width: 75%;
+}
+@media only screen and (max-width: 600px){
+    .enroll_card{ 
+       width:85%;
+       z-index: 0;
+       margin: auto;
+       margin-top: 25px;
+    }
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+$font: 'Montserrat';
+
+.partner{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.6)),url(../../../images/hands.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 960px;
+}
+.part_head{
+    text-align: center;
+    
+}
+.zin_head{
+    color: rgb(255,81,81);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 73px;
+    padding-top: 24px;
+}
+.partnerhead{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 73px;
+    margin-top: -10px;
+}
+.partner_text{
+    text-align: center;
+    margin-top: 30%;
+
+    p{
+        color: white;
+        font-size: 24px;
+        font-family: $font;
+        text-align: center;
+        line-height: 40px;
+    }
+}
+.interest{
+    width: 20%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 40%;
+    background-color: rgb(255,81,81);
+    div{
+        font-family: $font;
+        font-size: 33px;
+        padding: 2px;
+        color: white;
+    }
+}
+@media only screen and (max-width: 600px){
+    .partner{
+        height: 620px;
+        background-position: center;
+        margin-top: 20%;
+    }
+    .zin_head, .partnerhead{
+        font-size: 43px;
+        padding-top: 15px;
+    }
+    .partner_text{
+        margin-top: 50%;
+        p{
+            font-size: 15px;
+            line-height: 30px;
+        }
+    }
+    .interest{
+        width: 53%;
+        margin-top: 7.5%;
+        margin-left: 25%;
+        background-color: rgb(255,81,81);
+        div{
+            font-family: $font;
+            font-size: 20px;
+            padding: 2px;
+            color: white;
+        }
+    }
+}
